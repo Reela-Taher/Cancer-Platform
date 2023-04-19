@@ -800,7 +800,7 @@
                 "group"
               ],
               "topRow": 14,
-              "bottomRow": 42,
+              "bottomRow": 45,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -822,7 +822,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 280,
+                  "bottomRow": 310,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -854,7 +854,7 @@
                       "parentColumnSpace": 8.072021484375,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 2,
+                      "leftColumn": 11,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -871,7 +871,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 49,
+                      "rightColumn": 58,
                       "dynamicHeight": "FIXED",
                       "widgetId": "1bxuvvkel2",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -915,7 +915,7 @@
                       "parentColumnSpace": 8.072021484375,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 2,
+                      "leftColumn": 11,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -932,7 +932,7 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 48,
+                      "rightColumn": 57,
                       "dynamicHeight": "FIXED",
                       "widgetId": "5l5k0kcr5j",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -1015,13 +1015,13 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 21,
-                      "bottomRow": 25,
+                      "topRow": 22,
+                      "bottomRow": 26,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 3,
+                      "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -1031,7 +1031,7 @@
                       "isDisabled": false,
                       "key": "7hzl6h908r",
                       "isDeprecated": false,
-                      "rightColumn": 22,
+                      "rightColumn": 43,
                       "isDefaultClickDisabled": true,
                       "widgetId": "3bq4eq5k4u",
                       "minWidth": 120,
@@ -1094,8 +1094,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 2,
-              "bottomRow": 11,
+              "topRow": 0,
+              "bottomRow": 10,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -1117,7 +1117,7 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 80,
+                  "bottomRow": 90,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1174,7 +1174,7 @@
                       "originalTopRow": 1,
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 6,
+                      "originalBottomRow": 9,
                       "fontSize": "1.875rem",
                       "minDynamicHeight": 4
                     }
@@ -1484,8 +1484,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 43,
-              "bottomRow": 62,
+              "topRow": 49,
+              "bottomRow": 69,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -1507,7 +1507,7 @@
                   "widgetName": "Canvas6",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 190,
+                  "bottomRow": 200,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -1705,6 +1705,121 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "maxDynamicHeight": 9000,
               "minDynamicHeight": 10
+            },
+            {
+              "boxShadow": "none",
+              "widgetName": "Image1",
+              "displayName": "Image",
+              "iconSVG": "/static/media/icon.52d8fb963abcb95c79b10f1553389f22.svg",
+              "topRow": 0,
+              "bottomRow": 11,
+              "parentRowSpace": 10,
+              "type": "IMAGE_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 13.6875,
+              "dynamicTriggerPathList": [],
+              "imageShape": "RECTANGLE",
+              "leftColumn": 48,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "defaultImage": "https://images.squarespace-cdn.com/content/v1/572aaa55e3214012ea29505e/1614018214679-7GRT165MBRUED9KDKE8M/Healing-Hearts%2BLogo_-Full-Color_Transparent-Bg%2BWeb.png?format=750w",
+              "key": "egqhefz5r8",
+              "image": "",
+              "isDeprecated": false,
+              "rightColumn": 59,
+              "objectFit": "cover",
+              "widgetId": "dofabn3i8y",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "maxZoomLevel": 1,
+              "enableDownload": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "enableRotation": false
+            },
+            {
+              "widgetName": "Divider1",
+              "thickness": 2,
+              "displayName": "Divider",
+              "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
+              "searchTags": [
+                "line"
+              ],
+              "topRow": 45,
+              "bottomRow": 49,
+              "parentRowSpace": 10,
+              "type": "DIVIDER_WIDGET",
+              "capType": "nc",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 13.6875,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 37,
+              "dynamicBindingPathList": [
+                {
+                  "key": "dividerColor"
+                }
+              ],
+              "key": "y669ij9pwi",
+              "dividerColor": "{{appsmith.theme.colors.primaryColor}}",
+              "orientation": "horizontal",
+              "strokeStyle": "solid",
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "widgetId": "gh9j563c0t",
+              "capSide": 0,
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill"
+            },
+            {
+              "widgetName": "Divider2",
+              "thickness": 2,
+              "displayName": "Divider",
+              "iconSVG": "/static/media/icon.cbe8f608ca868e1eb44607e5fbd4a9e5.svg",
+              "searchTags": [
+                "line"
+              ],
+              "topRow": 14,
+              "bottomRow": 100,
+              "parentRowSpace": 10,
+              "type": "DIVIDER_WIDGET",
+              "capType": "nc",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 13.6875,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 34,
+              "dynamicBindingPathList": [
+                {
+                  "key": "dividerColor"
+                }
+              ],
+              "key": "y669ij9pwi",
+              "dividerColor": "{{appsmith.theme.colors.primaryColor}}",
+              "orientation": "vertical",
+              "strokeStyle": "solid",
+              "isDeprecated": false,
+              "rightColumn": 36,
+              "widgetId": "lnjtr694pm",
+              "capSide": 0,
+              "minWidth": 450,
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "responsiveBehavior": "fill"
             }
           ]
         },
