@@ -967,15 +967,12 @@
                       "hideCard": false,
                       "animateLoading": true,
                       "overflow": "NONE",
-                      "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+                      "fontFamily": "Rubik",
                       "dynamicTriggerPathList": [],
                       "leftColumn": 15,
                       "dynamicBindingPathList": [
                         {
                           "key": "truncateButtonColor"
-                        },
-                        {
-                          "key": "fontFamily"
                         },
                         {
                           "key": "borderRadius"
