@@ -15,7 +15,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "New User Registration",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -63,7 +63,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_getCancerID",
+  "id": "New User Registration_getCancerID",
   "deleted": false,
   "gitSyncId": "643f1a63687d2c3120d3e277_643f54145689b020f5759a36"
 }

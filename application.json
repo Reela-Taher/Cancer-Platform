@@ -1,19 +1,19 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "New User Registration",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "Support Groups by Cancer Type",
       "isDefault": false
     },
     {
-      "id": "Page3",
+      "id": "Treatment Centers",
       "isDefault": false
     },
     {
-      "id": "Page4",
+      "id": "Schedule a Meeting",
       "isDefault": false
     }
   ],

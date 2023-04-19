@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page2",
-    "slug": "page2",
+    "name": "Support Groups by Cancer Type",
+    "slug": "support-groups-by-cancer-type",
     "layouts": [
       {
         "viewMode": false,
@@ -604,14 +604,15 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page2",
+        "id": "Support Groups by Cancer Type",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "643f1a63687d2c3120d3e277_643f52d5687d2c3120d3e3b9"

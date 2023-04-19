@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Page1",
-    "slug": "page1",
+    "name": "New User Registration",
+    "slug": "new-user-registration",
     "customSlug": "",
     "layouts": [
       {
@@ -1711,14 +1711,15 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Page1",
+        "id": "New User Registration",
         "deleted": false,
         "policies": [],
         "userPermissions": []
       }
     ],
     "userPermissions": [],
-    "policies": []
+    "policies": [],
+    "isHidden": false
   },
   "deleted": false,
   "gitSyncId": "643f1a63687d2c3120d3e277_643f1a63687d2c3120d3e279"

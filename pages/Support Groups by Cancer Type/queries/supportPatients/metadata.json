@@ -15,7 +15,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page3",
+    "pageId": "Support Groups by Cancer Type",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -63,7 +63,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page3_supportPatients",
+  "id": "Support Groups by Cancer Type_supportPatients",
   "deleted": false,
-  "gitSyncId": "644042be5689b020f575acfa_6440431f687d2c3120d3f1bc"
+  "gitSyncId": "643f1a63687d2c3120d3e277_643f63d45689b020f5759ae1"
 }

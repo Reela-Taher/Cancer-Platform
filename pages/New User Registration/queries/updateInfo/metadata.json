@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "insertUser",
+    "name": "updateInfo",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -15,7 +15,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "New User Registration",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,7 +30,7 @@
       "queryParameters": [],
       "body": "",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -52,7 +52,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page1_insertUser",
+  "id": "New User Registration_updateInfo",
   "deleted": false,
-  "gitSyncId": "643f1a63687d2c3120d3e277_643f20e224e3b61452ed115b"
+  "gitSyncId": "643f1a63687d2c3120d3e277_643f542017a9db4faee95998"
 }
