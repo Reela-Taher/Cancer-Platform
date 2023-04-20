@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 660,
+          "bottomRow": 760,
           "containerStyle": "none",
           "snapRows": 59,
           "parentRowSpace": 1,
@@ -35,8 +35,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 38,
-              "bottomRow": 66,
+              "topRow": 48,
+              "bottomRow": 76,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -44,7 +44,7 @@
               "animateLoading": true,
               "parentColumnSpace": 10.21875,
               "dynamicTriggerPathList": [],
-              "leftColumn": 11,
+              "leftColumn": 9,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -305,7 +305,7 @@
               "key": "6sab7jrwcv",
               "backgroundColor": "#eff6ff",
               "isDeprecated": false,
-              "rightColumn": 54,
+              "rightColumn": 55,
               "dynamicHeight": "FIXED",
               "widgetId": "deu3sbopgm",
               "minWidth": 450,
@@ -330,8 +330,8 @@
               "searchTags": [
                 "group"
               ],
-              "topRow": 3,
-              "bottomRow": 33,
+              "topRow": 2,
+              "bottomRow": 28,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -353,7 +353,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 300,
+                  "bottomRow": 260,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -391,7 +391,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Support Groups by Cancer Type ID",
+                      "text": "Support Group Members",
                       "key": "l4z7svgiye",
                       "isDeprecated": false,
                       "rightColumn": 50,
@@ -419,6 +419,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button2",
+                      "onClick": "{{getSupportGroup.run(() => showAlert('Support group ID entered','success'), () => {})}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -426,12 +427,16 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 22,
-                      "bottomRow": 26,
+                      "topRow": 18,
+                      "bottomRow": 22,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 35,
                       "dynamicBindingPathList": [
                         {
@@ -471,8 +476,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 22,
-                      "bottomRow": 26,
+                      "topRow": 18,
+                      "bottomRow": 22,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -507,7 +512,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input3Copy",
+                      "widgetName": "support_group_id",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -551,7 +556,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Cancer Type ID:\n",
+                      "label": "Support Group ID:\n",
                       "version": 2,
                       "parentId": "7u79nnapfk",
                       "labelAlignment": "left",
@@ -607,8 +612,8 @@
               "searchTags": [
                 "line"
               ],
-              "topRow": 33,
-              "bottomRow": 37,
+              "topRow": 28,
+              "bottomRow": 33,
               "parentRowSpace": 10,
               "type": "DIVIDER_WIDGET",
               "capType": "nc",

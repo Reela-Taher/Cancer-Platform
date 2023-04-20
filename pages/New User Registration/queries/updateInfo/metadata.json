@@ -45,8 +45,10 @@
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [],
-    "isValid": true,
-    "invalids": [],
+    "isValid": false,
+    "invalids": [
+      "Unable to find plugin 6441938921a75e0969de96ce"
+    ],
     "messages": [],
     "jsonPathKeys": [],
     "userSetOnLoad": false,
