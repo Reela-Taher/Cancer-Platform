@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/p/user/first_name/last_name"
+        "url": "web:4000/p/user/{{firstname.text}}/{{lastname.text}}"
       },
       "invalids": [],
       "messages": [],
@@ -30,19 +30,8 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{Form1.data}}",
-      "bodyFormData": [
-        {
-          "key": "first_name",
-          "value": "{{Input1Copy5}}",
-          "type": "TEXT"
-        },
-        {
-          "key": "last_name",
-          "value": "{{Input1Copy6}}",
-          "type": "TEXT"
-        }
-      ],
+      "body": "{{Form2.data}}",
+      "bodyFormData": [],
       "httpMethod": "GET",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -54,15 +43,22 @@
         "apiContentType": "multipart/form-data"
       }
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      },
+      {
+        "key": "datasourceUrl"
+      }
+    ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "Form1.data",
-      "Input1Copy5",
-      "Input1Copy6"
+      "Form2.data",
+      "firstname.text",
+      "lastname.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
