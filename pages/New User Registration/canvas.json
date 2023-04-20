@@ -122,6 +122,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
+                      "onClick": "{{insertUser.run(() => showAlert('User registered successfully!','success'), () => {})}}",
                       "buttonColor": "#93c5fd",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -134,7 +135,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 35,
                       "dynamicBindingPathList": [],
                       "text": "Submit",
@@ -202,7 +207,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1",
+                      "widgetName": "first_name",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -263,7 +268,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1Copy4",
+                      "widgetName": "state",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -324,7 +329,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1Copy3",
+                      "widgetName": "city",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -385,7 +390,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1Copy2",
+                      "widgetName": "gender",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -446,7 +451,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1Copy1",
+                      "widgetName": "birth_date",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -477,7 +482,7 @@
                       ],
                       "labelPosition": "Top",
                       "labelStyle": "",
-                      "inputType": "NUMBER",
+                      "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "i7ms2u7nmk",
                       "labelTextSize": "0.875rem",
@@ -507,7 +512,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1Copy",
+                      "widgetName": "last_name",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -568,7 +573,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input2",
+                      "widgetName": "occupation",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -629,7 +634,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input3",
+                      "widgetName": "email_1",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -690,7 +695,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input4",
+                      "widgetName": "phone_1",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -892,25 +897,12 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1Copy5",
-                      "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
-                      "searchTags": [
-                        "form",
-                        "text input",
-                        "number",
-                        "textarea"
-                      ],
+                      "onSubmit": "{{getCancerID.run(() => getCancerID.run(), () => postWindowMessage('error', 'window', '*'))}}",
                       "topRow": 5,
-                      "bottomRow": 12,
-                      "parentRowSpace": 10,
                       "labelWidth": 5,
-                      "autoFocus": false,
                       "type": "INPUT_WIDGET_V2",
-                      "hideCard": false,
                       "animateLoading": true,
-                      "parentColumnSpace": 8.072021484375,
-                      "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
                       "leftColumn": 11,
                       "dynamicBindingPathList": [
@@ -921,32 +913,50 @@
                           "key": "borderRadius"
                         }
                       ],
-                      "labelPosition": "Top",
                       "labelStyle": "",
                       "inputType": "TEXT",
                       "isDisabled": false,
-                      "key": "i7ms2u7nmk",
-                      "labelTextSize": "0.875rem",
                       "isRequired": false,
-                      "isDeprecated": false,
-                      "rightColumn": 57,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "5l5k0kcr5j",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "showStepArrows": false,
-                      "minWidth": 450,
                       "isVisible": true,
-                      "label": "First Name:",
                       "version": 2,
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "originalBottomRow": 11,
+                      "widgetName": "Input1Copy5",
+                      "displayName": "Input",
+                      "searchTags": [
+                        "form",
+                        "text input",
+                        "number",
+                        "textarea"
+                      ],
+                      "bottomRow": 12,
+                      "parentRowSpace": 10,
+                      "autoFocus": false,
+                      "hideCard": false,
+                      "parentColumnSpace": 8.072021484375,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onSubmit"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "key": "i7ms2u7nmk",
+                      "labelTextSize": "0.875rem",
+                      "isDeprecated": false,
+                      "rightColumn": 57,
+                      "widgetId": "5l5k0kcr5j",
+                      "minWidth": 450,
+                      "label": "First Name:",
                       "parentId": "xdhyzdlcf8",
                       "labelAlignment": "left",
                       "renderMode": "CANVAS",
-                      "isLoading": false,
                       "responsiveBehavior": "fill",
                       "originalTopRow": 4,
-                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 11,
                       "iconAlign": "left",
                       "defaultText": "",
                       "minDynamicHeight": 4
@@ -1005,6 +1015,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
                       "widgetName": "Button3",
+                      "onClick": "{{navigateTo('New User Registration', {},'SAME_WINDOW')}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -1017,7 +1028,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
