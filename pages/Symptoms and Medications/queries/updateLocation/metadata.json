@@ -15,7 +15,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Schedule a Meeting",
+    "pageId": "Symptoms and Medications",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -52,7 +52,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Schedule a Meeting_updateLocation",
+  "id": "Symptoms and Medications_updateLocation",
   "deleted": false,
   "gitSyncId": "644042be5689b020f575acfa_64404632fab89e383409b905"
 }
