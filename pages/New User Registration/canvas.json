@@ -495,7 +495,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Birth Date (yyyy/mm/dd):",
+                      "label": "Birth Date (yyyy/mm/):",
                       "version": 2,
                       "parentId": "vh152y3awm",
                       "labelAlignment": "left",
