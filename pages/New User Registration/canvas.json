@@ -495,7 +495,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Birth Date (yyyy/mm/):",
+                      "label": "Birth Date (yyyy/mm/dd):",
                       "version": 2,
                       "parentId": "vh152y3awm",
                       "labelAlignment": "left",
@@ -2071,7 +2071,7 @@
                 }
               },
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "columnUpdatedAt": 1682031004398,
+              "columnUpdatedAt": 1682044138592,
               "defaultSelectedRowIndices": [
                 0
               ],
@@ -2178,9 +2178,9 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "Form2.data",
                 "firstname.text",
-                "lastname.text"
+                "lastname.text",
+                "Form2.data"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -2190,8 +2190,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "Form4.data",
-                "cancer_type_id.text"
+                "cancer_type_id.text",
+                "Form4.data"
               ],
               "timeoutInMillisecond": 10000
             }
