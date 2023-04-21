@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Schedule a Meeting",
-    "slug": "schedule-a-meeting",
+    "name": "Symptom and Medications",
+    "slug": "symptom-and-medications",
     "layouts": [
       {
         "viewMode": false,
@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 620,
+          "bottomRow": 810,
           "containerStyle": "none",
           "snapRows": 59,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 78,
           "minHeight": 610,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -28,7 +28,7 @@
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#93c5fd",
-              "widgetName": "Form1",
+              "widgetName": "findsymptom",
               "isCanvas": true,
               "displayName": "Form",
               "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
@@ -77,8 +77,8 @@
                         "paragraph",
                         "label"
                       ],
-                      "topRow": 1,
-                      "bottomRow": 5,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "type": "TEXT_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
@@ -96,7 +96,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Create Meeting by Support Group ID",
+                      "text": "Find Your Symptom",
                       "key": "l4z7svgiye",
                       "isDeprecated": false,
                       "rightColumn": 58,
@@ -124,6 +124,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button1",
+                      "onClick": "{{findsymptomm.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -131,12 +132,16 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 23,
-                      "bottomRow": 27,
+                      "topRow": 13,
+                      "bottomRow": 17,
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 24,
                       "dynamicBindingPathList": [
                         {
@@ -167,7 +172,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input1",
+                      "widgetName": "patientname",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -176,8 +181,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 6,
-                      "bottomRow": 13,
+                      "topRow": 4,
+                      "bottomRow": 11,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -187,7 +192,7 @@
                       "parentColumnSpace": 6.23388671875,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 7,
+                      "leftColumn": 6,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -204,14 +209,14 @@
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 33,
+                      "rightColumn": 32,
                       "dynamicHeight": "FIXED",
                       "widgetId": "r13s2yc1mi",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Patient Name:",
+                      "label": "Symptom Name:",
                       "version": 2,
                       "parentId": "hkyunpkvf8",
                       "labelAlignment": "left",
@@ -226,7 +231,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "Input2",
+                      "widgetName": "patientnameCopy",
                       "displayName": "Input",
                       "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                       "searchTags": [
@@ -235,8 +240,8 @@
                         "number",
                         "textarea"
                       ],
-                      "topRow": 15,
-                      "bottomRow": 22,
+                      "topRow": 4,
+                      "bottomRow": 11,
                       "parentRowSpace": 10,
                       "labelWidth": 5,
                       "autoFocus": false,
@@ -246,7 +251,7 @@
                       "parentColumnSpace": 6.23388671875,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 7,
+                      "leftColumn": 32,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
@@ -257,20 +262,20 @@
                       ],
                       "labelPosition": "Top",
                       "labelStyle": "",
-                      "inputType": "NUMBER",
+                      "inputType": "TEXT",
                       "isDisabled": false,
                       "key": "i7ms2u7nmk",
                       "labelTextSize": "0.875rem",
                       "isRequired": false,
                       "isDeprecated": false,
-                      "rightColumn": 33,
+                      "rightColumn": 58,
                       "dynamicHeight": "FIXED",
-                      "widgetId": "eiyagbqgob",
+                      "widgetId": "gldoksh4zp",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Support Group ID:",
+                      "label": "Symptom ID:",
                       "version": 2,
                       "parentId": "hkyunpkvf8",
                       "labelAlignment": "left",
@@ -284,62 +289,170 @@
                       "minDynamicHeight": 4
                     },
                     {
-                      "boxShadow": "none",
-                      "widgetName": "DatePicker1",
-                      "minDate": "1920-12-31T18:30:00.000Z",
-                      "dateFormat": "LLL",
-                      "displayName": "DatePicker",
-                      "iconSVG": "/static/media/icon.300e5ab8e2e1c26c7a0bad06116842b7.svg",
-                      "searchTags": [
-                        "calendar"
-                      ],
-                      "topRow": 11,
-                      "bottomRow": 18,
-                      "shortcuts": false,
-                      "parentRowSpace": 10,
-                      "labelWidth": 5,
-                      "type": "DATE_PICKER_WIDGET2",
-                      "hideCard": false,
+                      "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+                      "borderColor": "#E0DEDE",
+                      "isVisibleDownload": true,
+                      "iconSVG": "/static/media/icon.db8a9cbd2acd22a31ea91cc37ea2a46c.svg",
+                      "topRow": 17,
+                      "isSortable": true,
+                      "type": "TABLE_WIDGET_V2",
+                      "inlineEditingSaveOption": "ROW_LEVEL",
                       "animateLoading": true,
-                      "parentColumnSpace": 11.199462890625,
-                      "dynamicTriggerPathList": [],
-                      "leftColumn": 39,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
                         },
                         {
                           "key": "borderRadius"
+                        },
+                        {
+                          "key": "boxShadow"
+                        },
+                        {
+                          "key": "tableData"
+                        },
+                        {
+                          "key": "defaultSearchText"
+                        },
+                        {
+                          "key": "primaryColumns.name.computedValue"
+                        },
+                        {
+                          "key": "primaryColumns.symptom_id.computedValue"
                         }
                       ],
-                      "labelPosition": "Top",
-                      "isDisabled": false,
-                      "key": "scmthefzzw",
-                      "labelTextSize": "0.875rem",
-                      "isRequired": false,
-                      "defaultDate": "2023-04-19T19:36:32.347Z",
-                      "isDeprecated": false,
-                      "rightColumn": 59,
-                      "dynamicHeight": "FIXED",
-                      "widgetId": "tounxuul68",
+                      "needsHeightForContent": true,
+                      "leftColumn": 16,
+                      "delimiter": ",",
+                      "defaultSelectedRowIndex": 0,
+                      "showInlineEditingOptionDropdown": true,
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "minWidth": 450,
+                      "isVisibleFilters": true,
                       "isVisible": true,
-                      "datePickerType": "DATE_PICKER",
-                      "label": "Meeting Date:",
-                      "version": 2,
-                      "parentId": "hkyunpkvf8",
-                      "labelAlignment": "left",
-                      "renderMode": "CANVAS",
+                      "enableClientSideSearch": true,
+                      "version": 1,
+                      "totalRecordsCount": 0,
                       "isLoading": false,
-                      "timePrecision": "minute",
-                      "responsiveBehavior": "fill",
+                      "childStylesheet": {
+                        "button": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "menuButton": {
+                          "menuColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "iconButton": {
+                          "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "boxShadow": "none"
+                        },
+                        "editActions": {
+                          "saveButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "saveBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                          "discardButtonColor": "{{appsmith.theme.colors.primaryColor}}",
+                          "discardBorderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+                        }
+                      },
                       "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-                      "maxDynamicHeight": 9000,
-                      "firstDayOfWeek": 0,
-                      "closeOnSelection": true,
-                      "maxDate": "2121-12-31T18:29:00.000Z",
-                      "minDynamicHeight": 4
+                      "columnUpdatedAt": 1682036234454,
+                      "defaultSelectedRowIndices": [
+                        0
+                      ],
+                      "widgetName": "symptomtable",
+                      "defaultPageSize": 0,
+                      "columnOrder": [
+                        "name",
+                        "symptom_id"
+                      ],
+                      "dynamicPropertyPathList": [],
+                      "displayName": "Table",
+                      "bottomRow": 29,
+                      "columnWidthMap": {
+                        "task": 245,
+                        "step": 70,
+                        "status": 85
+                      },
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "parentColumnSpace": 12.28125,
+                      "dynamicTriggerPathList": [],
+                      "borderWidth": "1",
+                      "primaryColumns": {
+                        "name": {
+                          "allowCellWrapping": false,
+                          "index": 1,
+                          "width": 150,
+                          "originalId": "name",
+                          "id": "name",
+                          "alias": "name",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "text",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "name",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{symptomtable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+                          "sticky": "",
+                          "validation": {}
+                        },
+                        "symptom_id": {
+                          "allowCellWrapping": false,
+                          "allowSameOptionsInNewRow": true,
+                          "index": 1,
+                          "width": 150,
+                          "originalId": "symptom_id",
+                          "id": "symptom_id",
+                          "alias": "symptom_id",
+                          "horizontalAlignment": "LEFT",
+                          "verticalAlignment": "CENTER",
+                          "columnType": "number",
+                          "textSize": "0.875rem",
+                          "enableFilter": true,
+                          "enableSort": true,
+                          "isVisible": true,
+                          "isDisabled": false,
+                          "isCellEditable": false,
+                          "isEditable": false,
+                          "isCellVisible": true,
+                          "isDerived": false,
+                          "label": "symptom_id",
+                          "isSaveVisible": true,
+                          "isDiscardVisible": true,
+                          "computedValue": "{{symptomtable.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"symptom_id\"]))}}",
+                          "sticky": "",
+                          "validation": {}
+                        }
+                      },
+                      "defaultSearchText": "{{patientname.text.text}} {{patientnameCopy.text.text}}",
+                      "key": "zs2ebpel74",
+                      "canFreezeColumn": true,
+                      "isDeprecated": false,
+                      "rightColumn": 50,
+                      "textSize": "0.875rem",
+                      "widgetId": "h2oeqg404x",
+                      "minWidth": 450,
+                      "tableData": "{{findsymptomm.data}}",
+                      "label": "Data",
+                      "searchKey": "",
+                      "parentId": "hkyunpkvf8",
+                      "renderMode": "CANVAS",
+                      "horizontalAlignment": "LEFT",
+                      "isVisibleSearch": true,
+                      "responsiveBehavior": "fill",
+                      "isVisiblePagination": true,
+                      "verticalAlignment": "CENTER"
                     }
                   ],
                   "key": "m3mcklwi96",
@@ -381,15 +494,15 @@
             {
               "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
               "borderColor": "#93c5fd",
-              "widgetName": "Form2",
+              "widgetName": "medicationform",
               "isCanvas": true,
               "displayName": "Form",
               "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
               "searchTags": [
                 "group"
               ],
-              "topRow": 32,
-              "bottomRow": 62,
+              "topRow": 36,
+              "bottomRow": 81,
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -411,7 +524,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 300,
+                  "bottomRow": 450,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -452,7 +565,7 @@
                       ],
                       "shouldTruncate": false,
                       "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "text": "Cancel Meeting by Meeting ID",
+                      "text": "Recommended Medication for Symptom",
                       "key": "l4z7svgiye",
                       "isDeprecated": false,
                       "rightColumn": 49,
@@ -480,6 +593,7 @@
                       "resetFormOnClick": true,
                       "boxShadow": "none",
                       "widgetName": "Button2",
+                      "onClick": "{{medication.run()}}",
                       "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",
@@ -492,7 +606,11 @@
                       "type": "BUTTON_WIDGET",
                       "hideCard": false,
                       "animateLoading": true,
-                      "dynamicTriggerPathList": [],
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
                       "leftColumn": 25,
                       "dynamicBindingPathList": [
                         {
@@ -567,7 +685,7 @@
                       "showStepArrows": false,
                       "minWidth": 450,
                       "isVisible": true,
-                      "label": "Meeting ID:",
+                      "label": "Symptom ID:",
                       "version": 2,
                       "parentId": "7u79nnapfk",
                       "labelAlignment": "left",
@@ -619,10 +737,23 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Symptom and Medications_findsymptomm",
+              "name": "findsymptomm",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "findsymptom.data"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Schedule a Meeting",
+        "id": "Symptom and Medications",
         "deleted": false,
         "policies": [],
         "userPermissions": []
