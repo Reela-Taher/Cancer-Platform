@@ -2178,9 +2178,9 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
+                "Form2.data",
                 "firstname.text",
-                "lastname.text",
-                "Form2.data"
+                "lastname.text"
               ],
               "timeoutInMillisecond": 10000
             },
@@ -2190,8 +2190,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "cancer_type_id.text",
-                "Form4.data"
+                "Form4.data",
+                "cancer_type_id.text"
               ],
               "timeoutInMillisecond": 10000
             }
