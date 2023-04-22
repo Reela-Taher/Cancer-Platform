@@ -9,11 +9,15 @@
       "isDefault": false
     },
     {
-      "id": "Treatment Centers",
+      "id": "Symptoms and Medications",
       "isDefault": false
     },
     {
+<<<<<<< HEAD
       "id": "Symptom and Medications",
+=======
+      "id": "Remove User",
+>>>>>>> main
       "isDefault": false
     }
   ],
