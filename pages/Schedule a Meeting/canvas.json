@@ -549,7 +549,7 @@
                       "parentColumnSpace": 10.17724609375,
                       "dynamicTriggerPathList": [],
                       "resetOnSubmit": true,
-                      "leftColumn": 16,
+                      "leftColumn": 15,
                       "dynamicBindingPathList": [
                         {
                           "key": "accentColor"
