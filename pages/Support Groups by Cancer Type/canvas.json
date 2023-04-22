@@ -13,13 +13,17 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
+<<<<<<< HEAD
+          "bottomRow": 540,
+=======
           "bottomRow": 1010,
+>>>>>>> main
           "containerStyle": "none",
           "snapRows": 59,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 77,
+          "version": 78,
           "minHeight": 610,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
@@ -35,8 +39,13 @@
               "searchTags": [
                 "group"
               ],
+<<<<<<< HEAD
+              "topRow": 26,
+              "bottomRow": 54,
+=======
               "topRow": 59,
               "bottomRow": 101,
+>>>>>>> main
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -44,7 +53,11 @@
               "animateLoading": true,
               "parentColumnSpace": 10.21875,
               "dynamicTriggerPathList": [],
+<<<<<<< HEAD
+              "leftColumn": 10,
+=======
               "leftColumn": 13,
+>>>>>>> main
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -369,7 +382,11 @@
               "key": "6sab7jrwcv",
               "backgroundColor": "#eff6ff",
               "isDeprecated": false,
+<<<<<<< HEAD
+              "rightColumn": 56,
+=======
               "rightColumn": 53,
+>>>>>>> main
               "dynamicHeight": "FIXED",
               "widgetId": "deu3sbopgm",
               "minWidth": 450,
@@ -395,7 +412,11 @@
                 "group"
               ],
               "topRow": 0,
+<<<<<<< HEAD
+              "bottomRow": 21,
+=======
               "bottomRow": 26,
+>>>>>>> main
               "parentRowSpace": 10,
               "type": "FORM_WIDGET",
               "hideCard": false,
@@ -417,7 +438,7 @@
                   "widgetName": "Canvas2",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 260,
+                  "bottomRow": 220,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -676,8 +697,13 @@
               "searchTags": [
                 "line"
               ],
+<<<<<<< HEAD
+              "topRow": 21,
+              "bottomRow": 26,
+=======
               "topRow": 54,
               "bottomRow": 59,
+>>>>>>> main
               "parentRowSpace": 10,
               "type": "DIVIDER_WIDGET",
               "capType": "nc",
