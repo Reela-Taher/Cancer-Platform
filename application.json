@@ -13,7 +13,11 @@
       "isDefault": false
     },
     {
+<<<<<<< HEAD
+      "id": "Symptom and Medications",
+=======
       "id": "Remove User",
+>>>>>>> main
       "isDefault": false
     }
   ],
