@@ -8,4 +8,4 @@ This app is built using Appsmith. Turn any datasource into an internal app in mi
 
 ##### You can visit the application using the below link
 
-###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/applications/643f1a63687d2c3120d3e277/pages/643f1a63687d2c3120d3e27a) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/643f1a63687d2c3120d3e277/pages/643f1a63687d2c3120d3e27a/edit)
+###### [![](https://assets.appsmith.com/git-sync/Buttons.svg) ](https://app.appsmith.com/app/cancer-platform/new-user-registration-6445efd4e8f7e95a9b04b25c) [![](https://assets.appsmith.com/git-sync/Buttons2.svg)](https://app.appsmith.com/applications/643f1a63687d2c3120d3e277/pages/643f1a63687d2c3120d3e27a/edit)
